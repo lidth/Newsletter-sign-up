@@ -1,10 +1,13 @@
-let email
 function subscribe() {
-    email = document.querySelector('input#imail').value;
+    let email = document.querySelector('input#imail').value;
+    
+    localStorage.setItem('email', email);
 }
 
 function successp() {
-    subscribe();
+    let email = localStorage.getItem('email');
     let stexto = document.querySelector('p#spp');
-    stexto.innerHTML = email;
+    stexto.innerHTML = `A confirmation email has been sent to ${email} Please open it and click the button inside to confirm your subscription.`;
 }
+
+window.onload = successp;
