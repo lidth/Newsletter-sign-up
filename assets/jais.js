@@ -1,9 +1,10 @@
+let email
 function subscribe() {
-    let email = document.querySelector('input#imail').value
+    email = document.querySelector('input#imail').value;
 }
 
-function sucessp() {
-    subscribe()
-    let stexto = document.querySelector('div#sp')
-    stexto.innerHTML = email
+function successp() {
+    subscribe();
+    let stexto = document.querySelector('p#spp');
+    stexto.innerHTML = email;
 }
