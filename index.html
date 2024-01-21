@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/style.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+  <main>
+    <div id="mtexto">
+      <div id="th1">
+        <h1>
+          Stay updated!
+        </h1>
+      </div>
+      <div id="tp">
+        <p>
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
+      </div>
+      <div id="lista">
+        <ul>
+          <img src="assets/images/icon-list.svg" alt="icon list"><li>Product discovery and building what matters</li>
+          <img src="assets/images/icon-list.svg" alt="icon list"><li>Measuring to ensure updates are a success</li>
+          <img src="assets/images/icon-list.svg" alt="icon list"><li>And much more!</li>
+        </ul>
+      </div>
+      <form action="sucess.html" autocomplete="on">
+        <p><label for="imail">Email address</label></p>
+        <input type="email" required placeholder="email@company.com" autocomplete="email" id="imail">
+        <input type="submit" value="Subscribe to monthly newsletter" onclick="subscribe()">
+      </form>
+    </div>
+    <div id="image"></div>
+  </main>
+  <script src="assets/jais.js"></script>
+</body>
+</html>
