@@ -29,15 +29,19 @@ div#image {
     background-image: url('images/illustration-sign-up-mobile.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 290px;
+    background-position: center;
+    height: 200px;
     width: 100vw;
 }
 
 div#mtexto {
     position: absolute;
-    top: 350px;
-    padding: 0 20px;
+    top: 250px;
+    padding: 0 2px;
     max-height: 585px;
+    border: 1px solid;
+    max-width: 369px;
+    max-height: 700px;
 }
 
 div#th1 {
