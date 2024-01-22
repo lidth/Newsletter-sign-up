@@ -39,7 +39,6 @@ div#mtexto {
     top: 200px;
     padding: 0 2px;
     max-height: 585px;
-    border: 1px solid;
     max-width: 369px;
     max-height: 700px;
 }
@@ -126,7 +125,7 @@ form input[type=submit]:hover {
     
     div#mtexto {
         position: absolute;
-        top: 0px;
+        top: -40px;
         width: 100%;
         height: 100%;
         padding: 70px 60px;
@@ -166,6 +165,7 @@ form input[type=submit]:hover {
     }
     
     form {
+        margin-top: 30px;
         width: 100%;
     }
     
@@ -232,7 +232,7 @@ form input[type=submit]:hover {
     
     div#mtexto {
         position: absolute;
-        top: 0px;
+        top: -40px;
         width: 60%;
         height: 100%;
         padding: 70px 60px;
@@ -272,6 +272,7 @@ form input[type=submit]:hover {
     }
     
     form {
+        margin-top: 30px;
         width: 100%;
     }
     
