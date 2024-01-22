@@ -8,7 +8,9 @@
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
 </head>
 <body>
+  
   <main>
+    <div id="image"></div>
     <div id="mtexto">
       <div id="th1">
         <h1>
@@ -27,13 +29,14 @@
           <img src="assets/images/icon-list.svg" alt="icon list"><li>And much more!</li>
         </ul>
       </div>
-      <form action="sucess.html" autocomplete="on" onsubmit="subscribe()">
+      <form action="sucess.html" autocomplete="on">
         <p><label for="imail">Email address</label></p>
-        <input type="email" required placeholder="email@company.com" autocomplete="email" id="imail">
-        <input type="submit" value="Subscribe to monthly newsletter">
+        <div>
+        <input type="email" required placeholder="email@company.com" autocomplete="email" id="imail"></div>
+        <input type="submit" value="Subscribe to monthly newsletter" onclick="subscribe()">
       </form>
     </div>
-    <div id="image"></div>
+    
   </main>
   <script src="assets/jais.js"></script>
 </body>

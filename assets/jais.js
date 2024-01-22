@@ -9,5 +9,3 @@ function successp() {
     let stexto = document.querySelector('p#spp');
     stexto.innerHTML = `A confirmation email has been sent to ${email} Please open it and click the button inside to confirm your subscription.`;
 }
-
-window.onload = successp;
